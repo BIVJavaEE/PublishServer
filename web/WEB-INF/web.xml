@@ -3,4 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <context-param>
+        <param-name>BROKER</param-name>
+        <param-value>tcp://ouaz.me:1883</param-value>
+    </context-param>
+    <context-param>
+        <param-name>TOPIC</param-name>
+        <param-value>SensorMeasure</param-value>
+    </context-param>
+    <context-param>
+        <param-name>CLIENTID</param-name>
+        <param-value>PublishServer</param-value>
+    </context-param>
+    <context-param>
+        <param-name>QOS</param-name>
+        <param-value>2</param-value>
+    </context-param>
 </web-app>
