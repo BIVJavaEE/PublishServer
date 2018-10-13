@@ -20,7 +20,7 @@
     </context-param>
     <context-param>
         <param-name>TOPIC</param-name>
-        <param-value>SensorMeasure</param-value>
+        <param-value>measures</param-value>
     </context-param>
     <context-param>
         <param-name>CLIENTID</param-name>
